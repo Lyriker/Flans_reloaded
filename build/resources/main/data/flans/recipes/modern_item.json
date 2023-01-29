@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "ttt",
+    "rrr",
+    "ttt"
+  ],
+  "key":
+  {
+    "t":
+    {
+      "item": "minecraft:iron_ingot"
+    },
+    "r":
+    {
+      "item": "minecraft:green_dye"
+    }
+  },
+  "result":
+  {
+    "item": "flans:modern_item"
+  }
+}
