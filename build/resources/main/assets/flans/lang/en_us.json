@@ -1,5 +1,10 @@
 {
   "item.flans.clay_sand_mixture": "Clay and Sand Mixture",
-  "item.flans.fiberglass": "Fiberglass"
+  "item.flans.fiberglass": "Fiberglass",
+
+  "block.flans.modern_item": "Modern Weapons Box",
+  "block.flans.advanced_modern_item": "Advanced Modern Weapons Box",
+
+  "itemGroup.flanstab": "Flans Reloaded"
 
 }

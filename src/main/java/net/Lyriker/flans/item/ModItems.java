@@ -12,9 +12,9 @@ public class ModItems {
             DeferredRegister.create(ForgeRegistries.ITEMS, Flans_Reloaded.MOD_ID);
 
     public static final RegistryObject<Item>   Clay_Sand_mixture = ITEMS.register("clay_sand_mixture",
-            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.flans_tab).stacksTo(128)));
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.flans_tab)));
     public static final RegistryObject<Item>  Fiberglass = ITEMS.register("fiberglass",
-            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.flans_tab).stacksTo(32)));
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.flans_tab)));
 
     public static void register(IEventBus eventBus)
     {

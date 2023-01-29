@@ -1,6 +1,7 @@
 package net.Lyriker.flans;
 
 import com.mojang.logging.LogUtils;
+import net.Lyriker.flans.blocks.ModBlocks;
 import net.Lyriker.flans.item.ModItems;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
@@ -25,6 +26,7 @@ public class Flans_Reloaded
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
