@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "ttt",
+    "rrr",
+    "ttt"
+  ],
+  "key":
+  {
+    "t":
+    {
+      "tag": "minecraft:planks"
+    },
+    "r":
+    {
+      "item": "flans:fiberglass"
+    }
+  },
+  "result":
+  {
+    "item": "flans:armour_item"
+  }
+}

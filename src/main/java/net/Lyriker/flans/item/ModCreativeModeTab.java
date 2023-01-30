@@ -7,7 +7,7 @@ import net.minecraft.world.item.Items;
 
 public class ModCreativeModeTab
 {
-    public static final CreativeModeTab flans_tab = new CreativeModeTab("flanstab")
+    public static final CreativeModeTab flans_tab = new CreativeModeTab("flans_tab")
     {
         public ItemStack makeIcon()
         {

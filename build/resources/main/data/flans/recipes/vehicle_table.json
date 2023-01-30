@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "rrr",
+    "ttt",
+    "ttt"
+  ],
+  "key":
+  {
+    "t":
+    {
+      "item": "minecraft:iron_ingot"
+    },
+    "r":
+    {
+      "item": "minecraft:cauldron"
+    }
+  },
+  "result":
+  {
+    "item": "flans:vehicle_table"
+  }
+}

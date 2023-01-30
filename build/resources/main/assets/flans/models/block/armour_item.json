@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "down": "flans:block/item_down",
+    "up": "flans:block/armour_item_up",
+    "north": "flans:block/armour_item_side",
+    "east": "flans:block/armour_item_side",
+    "south": "flans:block/armour_item_side",
+    "west": "flans:block/armour_item_side",
+    "particle": "flans:block/armour_item_side"
+  }
+}

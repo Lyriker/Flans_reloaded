@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "down": "flans:block/item_down",
+    "up": "flans:block/vehicle_table_up",
+    "north": "flans:block/table_side",
+    "east": "flans:block/table_side",
+    "south": "flans:block/table_side",
+    "west": "flans:block/table_side",
+    "particle": "flans:block/table_side"
+  }
+}

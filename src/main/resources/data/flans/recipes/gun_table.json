@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "trt",
+    "ttt"
+  ],
+  "key":
+  {
+    "t":
+    {
+      "item": "minecraft:iron_ingot"
+    },
+    "r":
+    {
+      "item": "minecraft:cauldron"
+    }
+  },
+  "result":
+  {
+    "item": "flans:gun_table"
+  }
+}

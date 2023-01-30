@@ -1,7 +1,7 @@
 {
   "parent": "minecraft:block/cube",
   "textures": {
-    "down": "flans:block/modern_item_down",
+    "down": "flans:block/item_down",
     "up": "flans:block/modern_item_up",
     "north": "flans:block/modern_item_side",
     "east": "flans:block/modern_item_side",

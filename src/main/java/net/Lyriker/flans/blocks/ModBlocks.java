@@ -23,12 +23,29 @@ public class ModBlocks
             DeferredRegister.create(ForgeRegistries.BLOCKS, Flans_Reloaded.MOD_ID);
 
     public static final RegistryObject<Block> modern_item = registerBlock("modern_item",
-            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+            () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
                     .strength(6f).requiresCorrectToolForDrops()), ModCreativeModeTab.flans_tab);
 
     public static final RegistryObject<Block> advanced_modern_item = registerBlock("advanced_modern_item",
-            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+            () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
                     .strength(6f).requiresCorrectToolForDrops()), ModCreativeModeTab.flans_tab);
+
+    public static final RegistryObject<Block> armour_item = registerBlock("armour_item",
+            () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
+                    .strength(6f).requiresCorrectToolForDrops()), ModCreativeModeTab.flans_tab);
+
+    public static final RegistryObject<Block> gun_table = registerBlock("gun_table",
+            () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
+                    .strength(6f).requiresCorrectToolForDrops()), ModCreativeModeTab.flans_tab);
+
+    public static final RegistryObject<Block> part_table = registerBlock("part_table",
+            () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
+                    .strength(6f).requiresCorrectToolForDrops()), ModCreativeModeTab.flans_tab);
+
+    public static final RegistryObject<Block> vehicle_table = registerBlock("vehicle_table",
+            () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
+                    .strength(6f).requiresCorrectToolForDrops()), ModCreativeModeTab.flans_tab);
+
 
 
     private static <T extends Block>RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab)

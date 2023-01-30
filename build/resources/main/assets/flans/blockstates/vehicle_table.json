@@ -1,0 +1,9 @@
+{
+  "variants":
+  {
+    "":
+    {
+      "model": "flans:block/vehicle_table"
+    }
+  }
+}

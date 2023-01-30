@@ -4,7 +4,11 @@
 
   "block.flans.modern_item": "Modern Weapons Box",
   "block.flans.advanced_modern_item": "Advanced Modern Weapons Box",
+  "block.flans.armour_item": "Modern Armour Box",
+  "block.flans.gun_table": "Gun Modification Table",
+  "block.flans.part_table": "Part Crafting Table",
+  "block.flans.vehicle_table": "Vehicle Crafting Table",
 
-  "itemGroup.flanstab": "Flans Reloaded"
+  "itemGroup.flans_tab": "Flans Reloaded"
 
 }

@@ -3,6 +3,10 @@
   "values":
   [
     "flans:modern_item",
-    "flans:advanced_modern_item"
+    "flans:advanced_modern_item",
+    "flans:armour_item",
+    "flans:gun_table",
+    "flans:part_table",
+    "flans:vehicle_table"
   ]
 }
